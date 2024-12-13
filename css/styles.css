@@ -1,0 +1,113 @@
+/* Main Elements */
+body {
+    background-color:gray;
+    
+}
+h3, h2, h1 {
+    
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  }
+  header {
+    max-width: 1200px; 
+    margin: 40px auto; 
+  
+
+  }
+  
+  body {
+    background-image: url("../background.jpg"); 
+    background-size: cover; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  p {
+    font-size:x-large;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+  }
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  img {
+    max-width: 90%;
+    max-height: 50vh; 
+    width: auto; 
+    height: auto;}
+
+/* classes */
+.navHeader,  .nav-item {
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .animal-header 
+  {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.article-img {
+  padding-top: 10px;
+}
+
+.main-img-animals {
+  padding-top:10px;
+}
+
+.article-img-index-sp {
+ 
+  margin-left: 100px; 
+  padding-top: 40px; 
+  
+
+
+
+}
+.article-img-index-sq {
+
+margin-left: 80px;
+padding-top: 40px;
+
+ 
+
+
+
+}
+.main-index {
+  text-align: center; 
+
+}
+
+/* IDs*/
+
+/* querys */
+
+@media (min-width: 1020px) { 
+ .grid-container-space {
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 60px; 
+  max-width: 100%; 
+
+ }
+ 
+   
+  
+}

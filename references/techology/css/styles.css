@@ -1,0 +1,202 @@
+/* Main element rules/ sub element rules */
+body
+{  
+    background-image: linear-gradient(darkgray, white,lightgray); 
+    font-size: 1.5em; 
+
+}
+
+ h1
+{
+   
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 1000,
+    "SCAN" 1000,
+    "XELA" 1000,
+    "YELA" 1000;
+    text-align:center; 
+    
+
+}
+h3 
+{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 2px 2px black;
+    font-variation-settings:
+      "BLED" 1000,
+      "SCAN" 1000,
+      "XELA" 1000,
+      "YELA" 1000;
+      
+
+      
+}
+p
+
+{
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; 
+}
+
+header 
+{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav
+{
+    background-color: brown; 
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    background-color: darkGRAY; 
+    text-align: center;
+
+}
+
+nav li
+{
+    
+    display: block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif; 
+    font-weight: bold; 
+    border-top: 0.5px solid #f6eee4;
+    font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 1000,
+    "SCAN" 1000,
+    "XELA" 1000,
+    "YELA" 1000;
+    text-align:center; 
+}
+nav li:hover 
+{
+    background-image: linear-gradient(black, blue);
+    opacity: 1.5; 
+
+}
+nav li:active 
+{
+    opacity:0.5;
+
+}
+
+nav li a 
+{
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+aside
+{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    
+}
+
+img:hover
+{
+opacity:0.5;
+}
+img 
+{
+    width:100%; 
+    height:auto; 
+
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* Makes the container wrap the image */
+  }
+  .img-footer 
+  {
+    width:100%;
+    height:auto; 
+
+  }
+
+/* class rules*/
+.mobile
+{
+    display: block; 
+}
+
+
+
+
+.h3container 
+{
+padding:1.5em; 
+margin:0.5; 
+}
+
+/* media query for desktop viewport */
+
+@media screen and (min-width: 1000px) {
+    /* rules for nav area */
+    nav li {
+        font-size: 1.5em; 
+        padding-top: 0.5em; 
+        padding-bottom: 0.5em;
+        padding-left: 1.5em; 
+        padding-right: 1.5em; 
+
+    }
+    nav li a:hover {
+        color:white; 
+        background-color: gray;
+    }
+    .main 
+    {
+        column-count:3;
+        column-width:50px; 
+        column-rule: 1px dotted; 
+        column-gap: 2em;
+        
+    
+    
+    }
+    .img_container 
+{
+    column-count:3;
+    column-width:50px; 
+    column-rule: 1px dotted; 
+    column-gap: 2em;  
+}
+
+    }
+    /* media query for large desktop view ports */ 
+@media screen and (min-width: 1921px)
+{
+    main {
+
+        background: linear-gradient (gray, white); 
+        
+    }
+
+}
